@@ -1,39 +1,64 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "In any PLC based system, scan time of loop does not depend on:",
+        "answers": {
+          "a": "Memory capacity",
+          "b": "Program length",
+          "c": "CPU speed",
+          "d": "None"
+        },
+       
+        "correctAnswer": "a",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "The standard control signal range used for PLC analog inputs is:",
+        "answers": {
+          "a": "3- 15 psi",
+          "b": "0- 20 mA",
+          "c": "4-20 mA",
+          "d": "None"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "In PLC ladder program Branch instruction is used to create:",
+        "answers": {
+          "a": "Series of energised contacts",
+          "b": "Parallel path",
+          "c": "Series path",
+          "d": "None"
+        },
+        
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "In PLC 'OND' term stands for:",
+        "answers": {
+          "a": "ON Delay Timer",
+          "b": "OFF Delay Timer",
+          "c": "Both On or OFF Delay Timer",
+          "d": "None"
+        },
+       
+        "correctAnswer": "a",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": "In case of PLC, ___ term is used for down counter function:",
+        "answers": {
+          "a": "CTU",
+          "b": "CTD",
+          "c": "None of these"
+        },
+       
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      }
+    ]
+  }
