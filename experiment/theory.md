@@ -1,6 +1,7 @@
 In case of PLC various instructions are available which can be used for computational purpose.
 The compute/math instructions evaluate arithmetic operations using an expression or a specific arithmetic instruction.
 Various instructions PLC can support are as follows.
+
 | Instruction      | Description |
 | ----------- | ----------- |
 | ADD      | Add two values       |
@@ -30,6 +31,7 @@ The input and output parameters associated with these instructions are:
 **ADD instruction:**
 The ADD instruction adds Source A to Source B and places the result in the Destination.
 When the instruction is used in Relay Ladder the output parameter conditions are defined as mentioned below.
+
 | Condition      | Action |
 | ----------- | ----------- |
 | prescan      | The rung-condition-out is set to false.       |
@@ -39,6 +41,7 @@ When the instruction is used in Relay Ladder the output parameter conditions are
 **SUB instruction:**
 The SUB instruction subtracts Source B from Source A and places the result in the Destination.
 When the instruction is used in Relay Ladder the output parameter conditions are defined as mentioned below.
+
 | Condition      | Action |
 | ----------- | ----------- |
 | prescan      | The rung-condition-out is set to false.       |
@@ -58,6 +61,7 @@ When the instruction is used in Relay Ladder the output parameter conditions are
 **DIV instruction:**
 The DIV instruction divides Source A by Source B and places the result in the Destination.
 When the instruction is used in Relay Ladder the output parameter conditions are defined as mentioned below.
+
 | Condition      | Action |
 | ----------- | ----------- |
 | prescan      | The rung-condition-out is set to false.       |
