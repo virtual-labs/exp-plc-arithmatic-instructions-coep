@@ -1,0 +1,64 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "A compute/math instruction executes ...... each time the instruction is scanned as long as the rung-condition-in is true.:",
+        "answers": {
+          "a": "Once",
+          "b": "Twice",
+          "c": "Repeatedly",
+          "d": "None"
+        },
+       
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "When the arithmatic operations are carried out in the PLC, if the data type for source and destination is not similar then:",
+        "answers": {
+          "a": "loss of accuracy and rounding error occurs",
+          "b": "Instruction takes more time to execute.",
+          "c": "Both 1 and 2 above",
+          "d": "None"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": " ........... parameter stores the result of the math instruction.",
+        "answers": {
+          "a": "EnableOut",
+          "b": "EnableIn",
+          "c": "Dest",
+          "d": "None"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "The data type of EnableOut is:",
+        "answers": {
+          "a": "BOOL",
+          "b": "REAL",
+          "c": "INT",
+          "d": "None"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "The instruction used for determining the remainder of division is:",
+        "answers": {
+          "a": "DIV",
+          "b": "MOD",
+          "c": "NEG"
+        },
+       
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      }
+    ]
+  }
